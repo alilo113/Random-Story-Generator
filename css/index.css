@@ -1,0 +1,59 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: yellow;
+}
+
+.container {
+    max-width: 700px;
+    margin-top: 50px;
+}
+
+input, button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input:focus, button:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+input {
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    width: 80%;
+    margin: 0.5rem 0;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: #3B82F6;
+    color: white; 
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563EB;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#story {
+    margin-top: 1.5rem;
+    color: #333;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+@media (max-width: 640px) {
+    input {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+    }
+}

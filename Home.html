@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Story Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl text-center font-bold mb-4">Random Story Generator</h1>
+        <div class="space-y-4 text-center">
+            <input id="name" type="text" placeholder="Enter a character's name" class="p-2 border rounded w-1/2">
+            <input id="setting" type="text" placeholder="Enter a setting" class="p-2 border rounded w-1/2">
+            <input id="action" type="text" placeholder="Enter an action" class="p-2 border rounded w-1/2">
+            <button id="generateStory" class="bg-blue-500 text-white p-2 rounded">Generate Story</button>
+        </div>
+        <div id="story" class="mt-6 text-xl text-center font-semibold"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
