@@ -7,5 +7,5 @@ const story = document.getElementById("story")
 form.addEventListener("submit", (e) => {
     e.preventDefault()
 
-    story.innerHTML = ` ${char.value}  ${setting.value} ${action.value}`;
+    story.innerHTML = `Long time ago ${char.value} in ${setting.value} ${action.value}`;
 })
